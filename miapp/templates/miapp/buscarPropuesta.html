@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/miapp/buscar_propuesta2" method="get">
+        {% csrf_token %}
+        <h2>Buscar propuesta mediante su título:   </h2>
+        <input type="text" name="titulo" id="titulo">
+        <input type="submit" value="Buscar">
+    </form>
+</body>
+</html>
